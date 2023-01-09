@@ -1,0 +1,35 @@
+{
+  "name": "easy-cli-helper",
+  "version": "0.0.0",
+  "description": "include prompts and commands",
+  "author": "hwz <3350680655@qq.com>",
+  "homepage": "https://github.com/KeepCodeing/output#readme",
+  "license": "MIT",
+  "main": "node ./bin/easy-cli-helper.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "easy": "bin/easy-cli-helper.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.iyunquna.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeepCodeing/output.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/easy-cli-helper.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/KeepCodeing/output/issues"
+  },
+  "dependencies": {
+    "commander": "^9.5.0"
+  }
+}
